@@ -1,0 +1,67 @@
+* {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr.registros:hover {
+  background-color: #bbbb;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+button.btn-editar {
+  background-color: blue;
+}
+
+button.btn-apagar {
+  background-color: red;
+}
+
+input#btn-salvar {
+  background-color: green;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 50px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input#btn-atualizar {
+  background-color: green;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 70px;
+  display: none;
+  cursor: pointer;
+}
+
+input#btn-cancelar {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 70px;
+  display: none;
+  cursor: pointer;
+}
