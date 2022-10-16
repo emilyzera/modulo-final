@@ -108,7 +108,7 @@ function pegarDadosStorage(){
     return
 }
 
-function apagarRegistro(Meusrecados){
+function apagarRegistro(registroID){
     
     let listaRegistros = JSON.parse(localStorage.getItem('Meusrecados'));
     let indiceEncontrado = listaRegistros.findIndex((recado) => recado.registroID == registroID);
@@ -129,7 +129,7 @@ function apagarRegistro(Meusrecados){
             }
         }
 
-        localStorage.clear();
+        
         salvarNoStorage(listaRegistros);
 
     }else{
