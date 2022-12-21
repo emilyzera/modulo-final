@@ -1,55 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
     <title>Cadstro registro</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Sistema de recados</h1>
 
     <form id="form-cadastro">
-        <fieldset>
-            <legend>Registrar recados</legend>
+      <fieldset>
+        <legend>Registrar recados</legend>
 
-            <label for="codigo-recados">Registro </label>
-            <input type="text" name="codigo-recados" id="input-registro">
+        <label for="codigo-recados"> Numero do Registro </label>
+        <input type="text" name="codigo-recados" id="input-registro" />
 
-            <label for="titulo-recados">Título</label>
-            <input type="text" name="titulo-recados" id="input-titulo">
+        <label for="titulo-recados">Título</label>
+        <input type="text" name="titulo-recados" id="input-titulo" />
 
-            <label for="descricao-recados">Descrição </label>
-            <input type="text" name="descricao-recados" id="input-descricao">
+        <label for="descricao-recados">Descrição </label>
+        <input type="text" name="descricao-recados" id="input-descricao" />
 
-            <input type="submit" value="Salvar" id="btn-salvar">
-            <input type="button" value="Atualizar" id="btn-atualizar">
-            <input type="button" value="Cancelar" id="btn-cancelar">
-        </fieldset>
+        <input type="submit" value="Salvar" id="btn-salvar" />
+        <input type="button" value="Atualizar" id="btn-atualizar" />
+        <input type="button" value="Cancelar" id="btn-cancelar" />
+      </fieldset>
     </form>
 
     <table id="tabela-registros">
-        <tr>
-            <th>Registro ID</th>
-            <th>Título</th>
-            <th>Descrição</th>
-            <th>Ações</th>
-        </tr>
-        <!-- <tr class="registros" id="1234">
-            <td>1234</td>
-            <td>Titulo Exemplo</td>
-            <td>Descrição Exemplo</td>
-            <td>
-                <button class="btn-editar" onclick="atualizarRegistro(1234)">Editar</button>
-                <button class="btn-apagar" onclick="apagarRegistro(1234)">Apagar</button>
-            </td>
-        </tr> -->
-
+      <tr>
+        <th>Registro ID</th>
+        <th>Título</th>
+        <th>Descrição</th>
+        <th>Ações</th>
+      </tr>
     </table>
     <script src="login.js"></script>
-</body>
-
+  </body>
 </html>
